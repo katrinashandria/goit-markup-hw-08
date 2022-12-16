@@ -1,0 +1,40 @@
+.client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.client__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    width: 170px;
+    height: 92px;
+
+    transition: border var(--anim-fast);
+
+    &:hover,
+    &:focus {
+    border-color: var(--accent-color);
+}
+}
+
+.client__icon {
+    fill: #AFB1B8;
+    justify-content: center;
+
+    transition: fill var(--anim-fast);
+
+    .client__link:hover &,
+    .client__link:focus & {
+    fill: var(--accent-color);
+}
+}
+
+
+
+

@@ -1,0 +1,26 @@
+.modal-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+    }
+}
+
+

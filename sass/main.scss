@@ -1,0 +1,36 @@
+//Variable styles
+@import "./utils/variables";
+@import "./utils/visually_hidden";
+
+//Base styles
+@import "./base/base";
+@import "./base/reset";
+
+
+//Components
+@import "./components/modal";
+@import "./components/modal_button";
+@import "./components/modal_form_button";
+@import "./components/logo";
+@import "./components/filter_kit";
+@import "./components/button";
+@import "./components/container";
+@import "./components/backdrop";
+@import "./components/section";
+
+
+// Layouts
+
+@import "./layouts/header";
+@import "./layouts/nav";
+@import "./layouts/hero";
+@import "./layouts/advantages";
+@import "./layouts/whatwedo";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./layouts/gallery";
+@import "./layouts/footer";
+
+
+
+
