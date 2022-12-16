@@ -1,4 +1,9 @@
+$breakpoints: (
+    "phone": 480px,
+    "tablet": 768px,
+    "desktop": 1200px,
 
+);
 
 .container {
     margin-left: auto;
@@ -6,4 +11,19 @@
     padding-left: 15px;
     padding-right: 15px;
     width: 1200px;
+
+// phone screen
+    @media screen and (min-width: 480px){
+        width: 480px;
+    }
+
+// tablet screen
+    @media screen and (min-width: 768px){
+        width: 768px;
+    }
+
+// desktop screen
+    @media screen and (min-width: 1200px){
+    width: 1200px;
+}
 }

@@ -406,6 +406,21 @@ html {
   padding-right: 15px;
   width: 1200px;
 }
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
 
 .backdrop {
   position: fixed;
@@ -429,9 +444,32 @@ html {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+@media screen and (min-width: 480px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
 
 .section--no-padding {
   padding-bottom: 0px;
+}
+@media screen and (min-width: 1200px) {
+  .section--no-padding {
+    padding-bottom: 0px;
+  }
 }
 
 .section--no-top {
@@ -610,9 +648,26 @@ html {
   margin-bottom: 30px;
   color: var(--main-background-color);
 }
-
-.feature-list__item {
-  width: 270px;
+@media screen and (min-width: 480px) {
+  .hero__name {
+    width: 360px;
+    font-size: 26px;
+    line-height: 1.6153846154;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero__name {
+    width: 360px;
+    font-size: 26px;
+    line-height: 1.6153846154;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero__name {
+    width: 696px;
+    font-size: 44px;
+    line-height: 1.3636363636;
+  }
 }
 
 .feature-list {
@@ -623,6 +678,51 @@ html {
       flex-wrap: wrap;
   gap: 30px;
 }
+@media screen and (min-width: 480px) {
+  .feature-list {
+    display: block;
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .feature-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .feature-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+
+.feature-list__item {
+  width: 270px;
+}
+@media screen and (min-width: 480px) {
+  .feature-list__item {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .feature-list__item {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .feature-list__item {
+    margin-bottom: 0px;
+  }
+}
 
 .feature-list .item {
   width: 270px;
@@ -631,6 +731,11 @@ html {
 
 .feature-list .item:nth-child(4n) {
   margin-right: 0;
+}
+@media screen and (min-width: 480px) {
+  .feature-list .item:nth-child(4n) {
+    margin-bottom: 0px;
+  }
 }
 
 .feature-list__icon {
@@ -649,6 +754,21 @@ html {
   background-color: var(--editional-color);
   margin-bottom: 30px;
 }
+@media screen and (min-width: 480px) {
+  .feature-list__icon {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .feature-list__icon {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .feature-list__icon {
+    width: 270px;
+  }
+}
 
 .feature-list__title {
   margin-bottom: 10px;
@@ -662,6 +782,21 @@ html {
 .feature-list__description {
   line-height: 1.7142857143;
   color: var(--secondary-text-color);
+}
+@media screen and (min-width: 480px) {
+  .feature-list__description {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .feature-list__description {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .feature-list__description {
+    width: 270px;
+  }
 }
 
 .flex-container {
@@ -678,6 +813,24 @@ html {
   line-height: 1.1666666667;
   text-align: center;
   margin-bottom: 50px;
+}
+@media screen and (min-width: 480px) {
+  .section__title {
+    font-size: 28px;
+    line-height: 1.1785714286;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section__title {
+    font-size: 28px;
+    line-height: 1.1785714286;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section__title {
+    font-size: 42px;
+    line-height: 1.1666666667;
+  }
 }
 
 .section__list {
@@ -1094,7 +1247,7 @@ p.project-type-title {
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: transparent;
   font-size: 16px;
-  line-height: calc 1.25;
+  line-height: 1.25;
   color: var(--main-background-color);
   letter-spacing: 0.03em;
   width: 358px;
