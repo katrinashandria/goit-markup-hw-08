@@ -35,20 +35,6 @@
 }
 }
 
-.section__list {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.section__item {
-    width: 370px;
-    margin-right: 30px;
-    margin-bottom: 0;
-}
-
-.section__item:nth-child(3n) {
-    margin-right: 0;
-}
 
 .section__thumb {
     position: relative;
