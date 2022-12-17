@@ -1324,6 +1324,16 @@ p.project-type-title {
           flex-direction: column;
   gap: 9px;
 }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-list {
+    display: block;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 60px;
+  }
+}
 
 .footer-title {
   margin-bottom: 20px;
@@ -1347,6 +1357,12 @@ p.project-type-title {
       -ms-flex-align: baseline;
           align-items: baseline;
 }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-block {
+    display: block;
+    text-align: center;
+  }
+}
 
 .footer-address {
   display: -webkit-box;
@@ -1354,6 +1370,15 @@ p.project-type-title {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-address {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
 }
 
 .footer-social {
@@ -1367,6 +1392,11 @@ p.project-type-title {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-social {
+    margin-bottom: 60px;
+  }
 }
 
 .footer-social-link {
@@ -1416,6 +1446,11 @@ p.project-type-title {
   position: relative;
   margin-left: 45px;
 }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .send-form-footer-down {
+    margin-left: 0px;
+  }
+}
 
 .footer-form {
   display: -webkit-box;
@@ -1431,6 +1466,12 @@ p.project-type-title {
   padding: 0;
   margin: 0;
 }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-form {
+    display: block;
+    text-align: center;
+  }
+}
 
 .mail-input {
   margin: 0;
@@ -1443,6 +1484,11 @@ p.project-type-title {
   color: var(--main-background-color);
   letter-spacing: 0.03em;
   width: 358px;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .mail-input {
+    width: 100%;
+  }
 }
 
 .footer-button {
@@ -1459,11 +1505,22 @@ p.project-type-title {
   border-color: transparent;
   cursor: pointer;
 }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-button {
+    margin-top: 20px;
+  }
+}
 
 .footer-send-icon {
   fill: var(--main-background-color);
   position: absolute;
   right: 25px;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-send-icon {
+    top: 124px;
+    right: 145px;
+  }
 }
 
 .user-form-label {

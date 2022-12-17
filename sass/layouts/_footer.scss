@@ -42,6 +42,14 @@
     display: flex;
     flex-direction: column;
     gap: 9px;
+
+    // phone screen
+@media screen and (min-width: 480px) and (max-width:767px){
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
 }
 
 .footer-title {
@@ -58,11 +66,26 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
+
+    // phone screen
+@media screen and (min-width: 480px) and (max-width:767px){
+    display: block;
+    text-align: center;
+    
+
+}
 }
 
 .footer-address {
     display: flex;
     flex-wrap: wrap;
+
+    // phone screen
+    @media screen and (min-width: 480px) and (max-width:767px){
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 .footer-social {
@@ -70,6 +93,13 @@
     gap: 10px;
     justify-content: center;
     align-items: center;
+
+    
+    // phone screen
+@media screen and (min-width: 480px) and (max-width:767px){
+    
+    margin-bottom: 60px;
+}
 }
 
 .footer-social-link {
@@ -106,6 +136,11 @@
 .send-form-footer-down {
     position: relative;
     margin-left: 45px;
+
+     // phone screen
+     @media screen and (min-width: 480px) and (max-width:767px){
+        margin-left: 0px;
+    }
 }
 
 .footer-form {
@@ -116,7 +151,11 @@
     padding: 0;
     margin: 0;
 
-    
+    // phone screen
+@media screen and (min-width: 480px) and (max-width:767px){
+    display: block;
+    text-align: center;
+}
 }
 
 .mail-input {
@@ -132,6 +171,12 @@ color: var(--main-background-color);
 letter-spacing: 0.03em;
 
 width: 358px;
+
+
+    // phone screen
+    @media screen and (min-width: 480px) and (max-width:767px){
+        width: 100%;
+    }
 }
 
 .footer-button {
@@ -149,6 +194,11 @@ width: 358px;
     border-radius: 4px;
     border-color: transparent;
     cursor: pointer;
+
+    // phone screen
+    @media screen and (min-width: 480px) and (max-width:767px){
+        margin-top: 20px;
+    }
   
 }
 
@@ -157,6 +207,12 @@ width: 358px;
     position: absolute;
     
     right: 25px;
+
+    // phone screen
+    @media screen and (min-width: 480px) and (max-width:767px){
+        top: 124px;
+        right: 145px;
+    }
     
 }
 
