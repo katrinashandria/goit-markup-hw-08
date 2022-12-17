@@ -447,19 +447,11 @@ html {
 @media screen and (min-width: 480px) {
   .section {
     padding-top: 60px;
-    padding-bottom: 60px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .section {
     padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
   }
 }
 
@@ -705,9 +697,6 @@ html {
   }
 }
 
-.feature-list__item {
-  width: 270px;
-}
 @media screen and (min-width: 480px) {
   .feature-list__item {
     margin-bottom: 30px;

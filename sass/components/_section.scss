@@ -5,20 +5,15 @@
 // phone screen
     @media screen and (min-width: 480px){
         padding-top: 60px;
-        padding-bottom: 60px;
+       
     }
 
 // tablet screen
-    @media screen and (min-width: 768px){
+    @media screen and (max-width: 768px){
         padding-top: 60px;
-        padding-bottom: 60px;
+        
     }
 
-// desktop screen
-    @media screen and (min-width: 1200px){
-        padding-top: 94px;
-        padding-bottom: 94px;
-}
     
 }
 
