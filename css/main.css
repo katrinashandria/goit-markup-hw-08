@@ -1446,7 +1446,12 @@ p.project-type-title {
   position: relative;
   margin-left: 45px;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) and (max-width: 1119px) {
+  .send-form-footer-down {
+    margin-left: 0px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1119px) {
   .send-form-footer-down {
     margin-left: 0px;
   }
@@ -1466,7 +1471,7 @@ p.project-type-title {
   padding: 0;
   margin: 0;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) and (max-width: 1119px) {
   .footer-form {
     display: block;
     text-align: center;
@@ -1485,7 +1490,7 @@ p.project-type-title {
   letter-spacing: 0.03em;
   width: 358px;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) and (max-width: 1119px) {
   .mail-input {
     width: 100%;
   }
@@ -1505,7 +1510,7 @@ p.project-type-title {
   border-color: transparent;
   cursor: pointer;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) and (max-width: 1119px) {
   .footer-button {
     margin-top: 20px;
   }
