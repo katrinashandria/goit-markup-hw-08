@@ -4,6 +4,22 @@
     align-items: center;
     gap: 30px;
     
+    
+// phone screen
+@media screen and (min-width: 480px){
+    display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+
+}
+
+// tablet screen
+@media screen and (max-width: 768px){
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+ 
+}
 }
 
 .client__link {
@@ -20,6 +36,27 @@
     &:hover,
     &:focus {
     border-color: var(--accent-color);
+}
+
+// phone screen
+@media screen and (min-width: 480px){
+       width: 210px;
+    height: 92px;
+   
+}
+
+// tablet screen
+@media screen and (min-width: 768px){
+        width: 226px;
+        height: 92px;
+    
+}
+
+// desktop screen
+@media screen and (min-width: 1200px){
+    width: 170px;
+    height: 92px;
+
 }
 }
 

@@ -2,6 +2,9 @@
     display: flex;
     align-items: center;
     border-bottom: 1px solid #ECECEC;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .header__group {
@@ -59,8 +62,9 @@
 
 
 .header__contact {
-    display: flex;
-    margin-left: auto;
-    align-items: center;
+    display: none;
+    // display: flex;
+    // margin-left: auto;
+    // align-items: center;
 }
 
