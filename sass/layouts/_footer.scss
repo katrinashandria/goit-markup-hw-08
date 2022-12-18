@@ -68,12 +68,20 @@
     align-items: baseline;
 
     // phone screen
-@media screen and (min-width: 480px) and (max-width: 1119px){
+@media screen and (min-width: 480px) and (max-width:767px){
     display: block;
     text-align: center;
-
+}
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    justify-content: center;
+    text-align: center;
+}
 }
 
+.footer-contacts, .footer-join {
+    @media screen and (min-width: 768px) and (max-width: 1199px){
+        width: 50%;
+    }
 }
 
 .footer-address {
@@ -85,6 +93,10 @@
         display: block;
         justify-content: center;
         text-align: center;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px){
+       margin: 0;
+       justify-content: center;
     }
 }
 
@@ -138,10 +150,13 @@
     margin-left: 45px;
 
      // phone screen
+     @media screen and (min-width: 480px) and (max-width: 1199px){
+        margin-left: 0px;
+    }
 
-    @media screen and (min-width: 768px) and (max-width: 1119px){
-        
+    @media screen and (min-width: 768px) and (max-width: 1199px){
         width: 70%;
+        margin-top: 60px;
     }
 }
 
@@ -176,7 +191,7 @@ width: 358px;
 
 
     // phone screen
-    @media screen and (min-width: 480px) and (max-width: 767px){
+    @media screen and (min-width: 480px) and (max-width: 1199px){
         width: 100%;
     }
 }
@@ -215,6 +230,11 @@ width: 358px;
         top: 124px;
         right: 145px;
     }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px){
+        top: 124px;
+        right: 180px;
+    }
     
 }
 
@@ -238,15 +258,17 @@ width: 358px;
 }
 
 .footer-first {
-     // phone screen
-     @media screen and (min-width: 768px) and (max-width:1119px){
-        width: 50%;
+
+    @media screen and (min-width: 481px) and (max-width:767px){
+        margin-left: 76px;
     }
+    
 }
 
 .footer-join {
-    // phone screen
-    @media screen and (min-width: 768px) and (max-width:1119px){
-        width: 50%;
+
+    @media screen and (min-width: 481px) and (max-width:767px){
+        margin-left: 76px;
     }
+    
 }

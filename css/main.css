@@ -614,6 +614,10 @@ html {
   gap: 20px;
 }
 
+.menu-icon {
+  margin-right: 10px;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1375,10 +1379,24 @@ p.project-type-title {
       -ms-flex-align: baseline;
           align-items: baseline;
 }
-@media screen and (min-width: 480px) and (max-width: 1119px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .footer-block {
     display: block;
     text-align: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-contacts, .footer-join {
+    width: 50%;
   }
 }
 
@@ -1396,6 +1414,14 @@ p.project-type-title {
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-address {
+    margin: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -1464,9 +1490,15 @@ p.project-type-title {
   position: relative;
   margin-left: 45px;
 }
-@media screen and (min-width: 768px) and (max-width: 1119px) {
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  .send-form-footer-down {
+    margin-left: 0px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .send-form-footer-down {
     width: 70%;
+    margin-top: 60px;
   }
 }
 
@@ -1503,7 +1535,7 @@ p.project-type-title {
   letter-spacing: 0.03em;
   width: 358px;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) and (max-width: 1199px) {
   .mail-input {
     width: 100%;
   }
@@ -1540,6 +1572,12 @@ p.project-type-title {
     right: 145px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-send-icon {
+    top: 124px;
+    right: 180px;
+  }
+}
 
 .user-form-label {
   font-family: "Roboto";
@@ -1556,14 +1594,14 @@ p.project-type-title {
   position: relative;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1119px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
   .footer-first {
-    width: 50%;
+    margin-left: 76px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1119px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
   .footer-join {
-    width: 50%;
+    margin-left: 76px;
   }
 }/*# sourceMappingURL=main.css.map */
