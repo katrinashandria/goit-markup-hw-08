@@ -12,7 +12,6 @@
     color: var(--main-background-color);
 }
 
-
 .footer-mail:hover, .footer-mail:focus {
     color: var(--accent-color);
 } 
@@ -36,7 +35,6 @@
 
     transition: color var(--anim-fast);
 }
-
 
 .footer-list {
     display: flex;
@@ -137,7 +135,6 @@
     background-color: var(--accent-color);
 }
 
-
 .footer-send-form {
     display: flex;
     gap: 10px;
@@ -188,7 +185,6 @@ color: var(--main-background-color);
 letter-spacing: 0.03em;
 
 width: 358px;
-
 
     // phone screen
     @media screen and (min-width: 480px) and (max-width: 1199px){
@@ -259,7 +255,7 @@ width: 358px;
 
 .footer-first {
 
-    @media screen and (min-width: 481px) and (max-width:767px){
+    @media screen and (min-width: 768px) and (max-width: 1199px){
         margin-left: 76px;
     }
     
@@ -267,7 +263,7 @@ width: 358px;
 
 .footer-join {
 
-    @media screen and (min-width: 481px) and (max-width:767px){
+    @media screen and (min-width: 768px) and (max-width: 1199px){
         margin-left: 76px;
     }
     

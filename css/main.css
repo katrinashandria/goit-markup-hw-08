@@ -671,8 +671,12 @@ html {
       -ms-flex-align: center;
           align-items: center;
   border-bottom: 1px solid #ECECEC;
-  padding-top: 16px;
-  padding-bottom: 16px;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
 
 .header__group {
@@ -682,6 +686,13 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .header__group {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .icon-mail {
@@ -716,22 +727,33 @@ html {
 .header-mail:hover, .header-mail:focus {
   color: var(--accent-color);
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header-mail {
+    margin-bottom: 10px;
+  }
+}
 
 .header-phone {
   font-weight: 500;
   line-height: 1.1428571429;
   letter-spacing: 0.02em;
-  margin-left: 50px;
   color: var(--secondary-text-color);
   -webkit-transition: color var(--anim-fast);
   transition: color var(--anim-fast);
+}
+@media screen and (min-width: 1200px) {
+  .header-phone {
+    margin-left: 50px;
+  }
 }
 .header-phone:hover, .header-phone:focus {
   color: var(--accent-color);
 }
 
-.header__contact {
-  display: none;
+@media screen and (max-width: 767px) {
+  .header__contact {
+    display: none;
+  }
 }
 
 .nav {
@@ -742,13 +764,35 @@ html {
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (min-width: 1200px) {
+  .nav {
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+    margin-left: 93px;
+  }
+}
 
-.nav__list {
-  display: none;
+@media screen and (max-width: 767px) {
+  .nav__list {
+    display: none;
+  }
 }
 
 .nav__list .nav__item + .nav__item {
   margin-left: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav__item {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact__item {
+    display: inline-block;
+  }
 }
 
 .nav__item, .contact__item {
@@ -1639,13 +1683,13 @@ p.project-type-title {
   position: relative;
 }
 
-@media screen and (min-width: 481px) and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-first {
     margin-left: 76px;
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-join {
     margin-left: 76px;
   }

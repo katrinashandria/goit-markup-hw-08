@@ -2,10 +2,16 @@
 .nav {
     display: flex;
     align-items: center;
+    @media screen and (min-width: 1200px){
+        flex: auto;
+        margin-left: 93px;
+    }
 }
 
 .nav__list {
-    display: none;
+    @media screen and (max-width: 767px){
+        display: none;
+    }
     // display: flex;
     // margin-left: 93px;
     
@@ -15,13 +21,21 @@
     margin-left: 50px;
 }
  
+.nav__item {
+    @media screen and (min-width: 768px) {
+        display: inline-block;
+    }
+}
 
-
+.contact__item {
+    @media screen and (min-width: 1200px) {
+        display: inline-block;
+    }
+}
 
 .nav__item, .contact__item {
     font-style: normal;
     text-decoration: none;
-    
 }
 
 .nav__item--no-margin {
