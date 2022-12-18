@@ -19,11 +19,29 @@
 
     transition: transform var(--anim-fast), opacity var(--anim-fast);
 
+    // phone screen
+@media screen and (min-width: 480px) and (max-width:1119px){
+    width: 450px;
+    top: 70%;
+    
+    
+
+}
+
+
 }
 
 .backdrop.is-hidden .modal {
     opacity: 0;
     transform: translateX(-50%) translateY(-70%);
+    
+}
+
+.backdrop {
+    @media screen and (min-width: 480px) and (max-width:1119px){
+    
+        overflow-y: scroll;
+    }
 }
 
 .modal-name {
@@ -146,6 +164,14 @@ top: 11px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     margin-left: 20px;
+
+        // phone screen
+@media screen and (min-width: 480px) and (max-width: 1119px){
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    
+
+}
 }
 
 .check .modal-link{
@@ -197,6 +223,7 @@ top: 11px;
     border: 2px solid var(--primary-text-color);
     border-radius: 2px;
    
+
 }
 
 .check-input:checked + .icon-checked {
