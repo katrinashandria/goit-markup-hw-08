@@ -1,9 +1,9 @@
 .modal {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 27.5%;
 
-    width: 528px;
+    width: 300px;
     padding: 40px;
     background-color: var(--main-background-color);
     border-radius: 4px;
@@ -23,9 +23,14 @@
 @media screen and (min-width: 480px) and (max-width:1119px){
     width: 450px;
     top: 50%;
-    
-    
+    left: 50%;
+}
 
+// desktop screen
+@media screen and (min-width: 480px) and (max-width:1119px){
+    width: 528px;
+    top: 50%;
+    left: 50%;
 }
 
 

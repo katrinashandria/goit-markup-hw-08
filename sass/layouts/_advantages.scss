@@ -64,7 +64,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 270px;
+    width: 290px;
     height: 120px;
     border-radius: 4px;
     background-color: var(--editional-color);
@@ -97,7 +97,7 @@
     color:var(--primary-text-color);
 
     // phone screen
-    @media screen and (min-width: 480px){
+    @media screen and (min-width: 320px){
         text-align: center;
     }
 
