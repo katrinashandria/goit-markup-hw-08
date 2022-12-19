@@ -42,7 +42,7 @@
     gap: 9px;
 
     // phone screen
-@media screen and (min-width: 480px) and (max-width:767px){
+@media screen and (min-width: 320px) and (max-width:767px){
     display: block;
     text-align: center;
     justify-content: center;
@@ -66,7 +66,7 @@
     align-items: baseline;
 
     // phone screen
-@media screen and (min-width: 480px) and (max-width:767px){
+@media screen and (min-width: 320px) and (max-width:767px){
     display: block;
     text-align: center;
 }
@@ -87,7 +87,7 @@
     flex-wrap: wrap;
 
     // phone screen
-    @media screen and (min-width: 480px) and (max-width:767px){
+    @media screen and (min-width: 320px) and (max-width:767px){
         display: block;
         justify-content: center;
         text-align: center;
@@ -167,7 +167,7 @@
     margin: 0;
 
     // phone screen
-@media screen and (min-width: 480px) and (max-width:1119px){
+@media screen and (min-width: 320px) and (max-width:1119px){
     display: block;
     text-align: center;
 }
@@ -188,7 +188,7 @@ letter-spacing: 0.03em;
 width: 358px;
 
     // phone screen
-    @media screen and (min-width: 480px) and (max-width: 1199px){
+    @media screen and (min-width: 320px) and (max-width: 1199px){
         width: 100%;
     }
 }
@@ -210,7 +210,7 @@ width: 358px;
     cursor: pointer;
 
     // phone screen
-    @media screen and (min-width: 480px) and (max-width: 1119px){
+    @media screen and (min-width: 320px) and (max-width: 1119px){
         margin-top: 20px;
     }
   
@@ -221,6 +221,12 @@ width: 358px;
     position: absolute;
     
     right: 25px;
+
+    // phone screen
+    @media screen and (min-width: 320px) and (max-width:479.99px){
+        top: 124px;
+        right: 70px;
+    }
 
     // phone screen
     @media screen and (min-width: 480px) and (max-width:767px){
@@ -255,7 +261,7 @@ width: 358px;
 }
 
 .footer-first {
-    @media screen and (min-width: 480px) and (max-width: 767px){
+    @media screen and (min-width: 320px) and (max-width: 767px){
         margin-bottom: 60px;
     }
 
@@ -270,7 +276,7 @@ width: 358px;
 .footer-join {
 
     // phone screen
-@media screen and (min-width: 480px) and (max-width:767px){
+@media screen and (min-width: 320px) and (max-width:767px){
     
     margin-bottom: 60px;
 }

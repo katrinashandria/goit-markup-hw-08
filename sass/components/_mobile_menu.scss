@@ -84,21 +84,29 @@
     list-style: none;
     margin-bottom: auto;
 
+    font-size: 40px;
+    line-height: calc(47 / 40);
+    
+
   }
   
-  .current-word {
-    color: var(--accent-color);
-  }
+ 
 
   .mobile-menu .link {
     display: block;
     margin-bottom: 32px;
-    font-size: 40px;
-    line-height: calc(47 / 40);
-    color: var(--primary-text-color);
+    
     text-decoration: none;
+
   }
 
+  .mobile-menu-link {
+    color: var(--primary-text-color);
+  }
+
+  .current-mobile-link {
+    color: var(--accent-color);
+  }
 
   .contact-menu {
     padding: 0;
@@ -138,12 +146,19 @@
   }
 
   .mobile-phone-link {
-    font-size: 34px;
-    line-height: calc(40 / 34);
+    font-size: 24px;
+    line-height: calc(28 / 24);
     color: var(--accent-color);
 
     display: inline-block;
     margin-bottom: 32px;
+
+    
+    // phone screen
+  @media screen and (min-width: 480px){
+    font-size: 34px;
+    line-height: calc(40 / 34);
+}
   }
 
   .mobile-contacts-link {
@@ -164,7 +179,7 @@
     padding-right: 0px;
     margin: 0;
 
-    border-right: 1px solid rgba(33, 33, 33, 0.2);
+    
 
     // phone screen
   @media screen and (min-width: 480px){
@@ -173,6 +188,7 @@
     color: var(--accent-color);
     padding-right: 10px;
   
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 
   }

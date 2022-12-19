@@ -1,18 +1,26 @@
 .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 // phone screen
     @media screen and (min-width: 480px){
         padding-top: 60px;
-       
+        padding-bottom: 60px;
     }
 
 // tablet screen
-    @media screen and (max-width: 768px){
+    @media screen and (min-width: 768px){
         padding-top: 60px;
-        
+        padding-bottom: 60px;
     }
+
+// decktop screen
+@media screen and (min-width: 1200px){
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    
+}
 
     
 }
