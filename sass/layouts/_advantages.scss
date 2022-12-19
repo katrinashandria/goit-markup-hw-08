@@ -31,6 +31,7 @@
 // phone screen
     @media screen and (min-width: 480px){
     margin-bottom: 30px;
+    
 }
 
 // tablet screen
@@ -94,6 +95,21 @@
     text-transform: uppercase;
     
     color:var(--primary-text-color);
+
+    // phone screen
+    @media screen and (min-width: 480px){
+        text-align: center;
+    }
+
+// tablet screen
+    @media screen and (min-width: 768px){
+        text-align: start;
+}
+
+// desktop screen
+@media screen and (min-width: 1200px){
+    text-align: start;
+}
 }
 
 .feature-list__description {

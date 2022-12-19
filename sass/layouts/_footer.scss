@@ -46,7 +46,7 @@
     display: block;
     text-align: center;
     justify-content: center;
-    margin-bottom: 60px;
+    
 }
 }
 
@@ -105,11 +105,7 @@
     align-items: center;
 
     
-    // phone screen
-@media screen and (min-width: 480px) and (max-width:767px){
     
-    margin-bottom: 60px;
-}
 }
 
 .footer-social-link {
@@ -254,6 +250,11 @@ width: 358px;
 }
 
 .footer-first {
+    @media screen and (min-width: 480px) and (max-width: 767px){
+        margin-bottom: 60px;
+    }
+
+    
 
     @media screen and (min-width: 768px) and (max-width: 1199px){
         margin-left: 76px;
@@ -262,6 +263,12 @@ width: 358px;
 }
 
 .footer-join {
+
+    // phone screen
+@media screen and (min-width: 480px) and (max-width:767px){
+    
+    margin-bottom: 60px;
+}
 
     @media screen and (min-width: 768px) and (max-width: 1199px){
         margin-left: 76px;

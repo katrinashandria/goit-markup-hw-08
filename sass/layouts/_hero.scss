@@ -3,11 +3,17 @@
     background-color: var(--secondary-background-color);
     margin: 0 auto;
     padding: 200px 0;
+
+    // tablet screen
+    @media screen and (min-width: 768px) and (max-width: 1199px){
+        padding: 118px 0;
+        
+    }
 }
 
 .hero-overlay {
+    background-size: cover;
     max-width: 1600px;
-    height: 600px;
     background-color: #C4C4C4;
     
     background-repeat: no-repeat;
@@ -18,13 +24,13 @@
     // phone screen
     @media screen and (min-width: 480px){
         max-width: 480px;
-        height: 400px;
+        
     }
 
     // tablet screen
     @media screen and (min-width: 768px) and (max-width: 1199px){
         max-width: 768px;
-        height: 400px;
+        
     }
 
     // desktop screen

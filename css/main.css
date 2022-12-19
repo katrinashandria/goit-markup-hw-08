@@ -785,6 +785,11 @@ html {
   margin-left: 50px;
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .nav__item {
+    margin-bottom: 8px;
+  }
+}
 @media screen and (min-width: 768px) {
   .nav__item {
     display: inline-block;
@@ -849,10 +854,15 @@ html {
   margin: 0 auto;
   padding: 200px 0;
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .hero {
+    padding: 118px 0;
+  }
+}
 
 .hero-overlay {
+  background-size: cover;
   max-width: 1600px;
-  height: 600px;
   background-color: #C4C4C4;
   background-repeat: no-repeat;
   background-position: center;
@@ -864,13 +874,11 @@ html {
 @media screen and (min-width: 480px) {
   .hero-overlay {
     max-width: 480px;
-    height: 400px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero-overlay {
     max-width: 768px;
-    height: 400px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1048,6 +1056,21 @@ html {
   line-height: 1.1428571429;
   text-transform: uppercase;
   color: var(--primary-text-color);
+}
+@media screen and (min-width: 480px) {
+  .feature-list__title {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .feature-list__title {
+    text-align: start;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .feature-list__title {
+    text-align: start;
+  }
 }
 
 .feature-list__description {
@@ -1492,7 +1515,6 @@ p.project-type-title {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-bottom: 60px;
   }
 }
 
@@ -1575,11 +1597,6 @@ p.project-type-title {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .footer-social {
-    margin-bottom: 60px;
-  }
 }
 
 .footer-social-link {
@@ -1733,12 +1750,22 @@ p.project-type-title {
   position: relative;
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-first {
+    margin-bottom: 60px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-first {
     margin-left: 76px;
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-join {
+    margin-bottom: 60px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-join {
     margin-left: 76px;
