@@ -4,6 +4,8 @@
     margin: 0 auto;
     padding: 200px 0;
 
+    max-width: 320px;
+
     // tablet screen
     @media screen and (min-width: 768px) and (max-width: 1199px){
         padding: 118px 0;
@@ -13,13 +15,15 @@
 
 .hero-overlay {
     background-size: cover;
-    max-width: 1600px;
+   
     background-color: #C4C4C4;
     
     background-repeat: no-repeat;
     background-position: center;
     margin-left: auto;
     margin-right: auto;
+
+    max-width: 320px;
 
     // phone screen
     @media screen and (min-width: 480px){
@@ -51,7 +55,7 @@
 
 // Tablet screen
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 768px) {
     background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), url("../images/hero/header_img_mid@1x.jpg");
 
     @media (min-device-pixel-ratio: 2),
@@ -63,7 +67,7 @@
    
 // Desktop screen
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 1200px){
     background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), url("../images/hero/header_img_lar@1x.jpg");
 
     @media (min-device-pixel-ratio: 2),
@@ -76,7 +80,7 @@
 }
 
 .hero__name {
-    width: 696px;
+    // width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60/44);
